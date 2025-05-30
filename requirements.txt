@@ -1,0 +1,12 @@
+openai>=1.25.0
+langchain>=0.2.0
+python-dotenv
+requests
+tavily-python
+langgraph
+streamlit
+transformers
+sentence-transformers
+google-generativeai
+faiss-cpu
+chromadb
