@@ -45,7 +45,6 @@ Agents communicate through a central controller or agent orchestrator.
 - **LangChain**  
 - **Streamlit** (for UI)
 - **Python 3.11**  
-- *(Optional experimental modules)*: MoviePy, gTTS  
 
 ---
 
@@ -59,8 +58,28 @@ Agents communicate through a central controller or agent orchestrator.
 - Google Gemini 1.5 Pro (makersuite / google.generativeai SDK)  
 - Mistral 7B / Zephyr from Hugging Face  
 
-**Why These Models?**  
-GPT-4o for accuracy and reasoning, Gemini for a free-tier alternative, and Mistral for offline, open-source local inference.
+---
+
+## 🛠 Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Sahil0707/multi-agent-research-assistant.git
+   cd solar-ai-assistant
+2. Create a virtual environment and activate it:
+   ```sh
+   python -m venv .venv
+   source .venv/bin/activate  # Mac/Linux
+   .venv\Scripts\activate     # Windows
+3. Install Dependencies:
+   ```sh
+   pip install -r requirements.txt
+4. Set up your .env file(create a .env file and add your api key):
+   ```sh
+   OPENAI_API_KEY=your_openai_api_key
+5. Run the application
+   ```sh
+   streamlit run streamlit_app.py
 
 ---
 
